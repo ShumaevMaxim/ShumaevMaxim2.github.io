@@ -29,6 +29,9 @@
       right: 50%;
       padding: 10px;
     }
+    .navigation li {
+        display:inline;
+    }
 
 }
 
@@ -79,7 +82,7 @@ nav ul li {
 .navigation li
  {
     float: none;
-    display:inline;
+    
     margin: 0 1.15em;
  }
  .navigation li a {
