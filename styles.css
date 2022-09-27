@@ -14,6 +14,16 @@
     #aga {
         font-size: 80%;
     }
+    #tabiform{
+        display: flex;
+        flex-direction: column;
+    }
+    #tablica{
+        order: 2;
+    }
+    #form{
+        order: 1;
+    }
 }
 
 @media not (max-width: 415px) {
