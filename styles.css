@@ -1,3 +1,20 @@
+@media (max-width: 415px){
+    html {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    img {
+        width: 70%;
+    }
+    #foto {
+        width: 40%;
+    }
+    #aga {
+        font-size: 80%;
+    }
+}
 .container {
 	max-width: 1170px;
     margin-left: auto;

@@ -4,6 +4,7 @@
 
   <head>
     <link href="./styles.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width initial-scale=1">
     <title>Гиперссылки и форма</title>
   </head>
 
@@ -13,8 +14,8 @@
 				<div class="header-wrapper">
 					<div id="block">
 						<div id="block-inner">
-							<img src="https://steamuserimages-a.akamaihd.net/ugc/1816643444811945911/525C4AB069F2A3596BE90AA1D8290BA8D4480E9C/?imw=512&amp;imh=512&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true" width="70" height="70" alt="">
-							<h1>ГИПЕРССЫЛКИиФОРМА.ру</h1>
+							<img id = "foto" src="https://steamuserimages-a.akamaihd.net/ugc/1816643444811945911/525C4AB069F2A3596BE90AA1D8290BA8D4480E9C/?imw=512&amp;imh=512&amp;ima=fit&amp;impolicy=Letterbox&amp;imcolor=%23000000&amp;letterbox=true" width="70" height="70" alt="">
+							<h1 id = "aga">ГИПЕРССЫЛКИиФОРМА.ру</h1>
 						</div>
 					</div>
 				</div>
@@ -48,7 +49,6 @@
     
     
     <ol class="spisok" id ="spisok">
-    <h2>Гиперссылки</h2>
       <li><a href="example.com">Aбсолютная гиперссылка</a></li>
       <li><a href="https://example.com">Aбсолютная гиперссылка в протоколе</a></li>
       <li><a href="ftp://example.com/file.txt">Cсылка на файл на сервере FTP без авторизации</a></li>
@@ -74,15 +74,15 @@
       <li><a href="/asd">Сокращенная ссылку на внутреннюю</a></li>
     </ol>
       
-    <ol id="tablica">
-    <table>
+    
+    <table id="tablica">
       <tr>
         <th>Вариант1</th>
         <th>Вариант2</th>
         <th>Вариант3</th>
       </tr>
       <tr>
-          <td colspan="3"><center>Ответы на задания 1-4</center></td>
+          <td colspan="3">Ответы на задания 1-4</td>
       </tr>
       <tr>
         <td>a</td>
@@ -105,7 +105,6 @@
         <td>bacd</td>
       </tr>
     </table>
-    </ol>
       
 
     <form action="/"
